@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		82476FDD213F9AD20048F7FD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 82476FDC213F9AD20048F7FD /* AppDelegate.m */; };
+		82476FDF213F9AD20048F7FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82476FDE213F9AD20048F7FD /* Assets.xcassets */; };
+		82476FE2213F9AD20048F7FD /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82476FE0213F9AD20048F7FD /* MainMenu.xib */; };
+		82476FE5213F9AD20048F7FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 82476FE4213F9AD20048F7FD /* main.m */; };
+		82476FEE213F9B880048F7FD /* Macro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82476FED213F9B880048F7FD /* Macro.framework */; };
+		82476FEF213F9B880048F7FD /* Macro.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 82476FED213F9B880048F7FD /* Macro.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		82476FF3213F9BEF0048F7FD /* ControllIllustrator.m in Sources */ = {isa = PBXBuildFile; fileRef = 82476FF2213F9BEF0048F7FD /* ControllIllustrator.m */; };
+		82476FF7213F9C640048F7FD /* Toolbars.m in Sources */ = {isa = PBXBuildFile; fileRef = 82476FF6213F9C640048F7FD /* Toolbars.m */; };
+		82476FF9213F9E770048F7FD /* Config.png in Resources */ = {isa = PBXBuildFile; fileRef = 82476FF8213F9E770048F7FD /* Config.png */; };
+		82476FFC213FAA6B0048F7FD /* SettingWizard.m in Sources */ = {isa = PBXBuildFile; fileRef = 82476FFB213FAA6B0048F7FD /* SettingWizard.m */; };
+		82477002213FC0520048F7FD /* Lower.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 82477001213FC0520048F7FD /* Lower.jpg */; };
+		82477005213FC3BB0048F7FD /* Auth1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 82477003213FC3BA0048F7FD /* Auth1.jpg */; };
+		82477006213FC3BB0048F7FD /* Auth2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 82477004213FC3BB0048F7FD /* Auth2.jpg */; };
+		82477009213FC67B0048F7FD /* Setting.m in Sources */ = {isa = PBXBuildFile; fileRef = 82477008213FC67B0048F7FD /* Setting.m */; };
+		8247700B213FD18F0048F7FD /* Graph.png in Resources */ = {isa = PBXBuildFile; fileRef = 8247700A213FD18F0048F7FD /* Graph.png */; };
+		8299E9DE214A66C20037B67B /* Upper2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8299E9DC214A66C20037B67B /* Upper2.jpg */; };
+		8299E9DF214A66C20037B67B /* Upper1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8299E9DD214A66C20037B67B /* Upper1.jpg */; };
+		829F3F3D214B7E2500C5B18E /* AdobeGeometric.m in Sources */ = {isa = PBXBuildFile; fileRef = 829F3F3C214B7E2500C5B18E /* AdobeGeometric.m */; };
+		82AF06882155C06500D5003C /* TableData.m in Sources */ = {isa = PBXBuildFile; fileRef = 82AF06872155C06500D5003C /* TableData.m */; };
+		82AF068B2155ED6700D5003C /* StatusView.m in Sources */ = {isa = PBXBuildFile; fileRef = 82AF068A2155ED6700D5003C /* StatusView.m */; };
+		82BA46B12154D59E002F21DF /* funcs_doc.jsx in Resources */ = {isa = PBXBuildFile; fileRef = 82BA46A82154D59E002F21DF /* funcs_doc.jsx */; };
+		82BA46B22154D59E002F21DF /* funcs_layout.jsx in Resources */ = {isa = PBXBuildFile; fileRef = 82BA46A92154D59E002F21DF /* funcs_layout.jsx */; };
+		82BA46B32154D59E002F21DF /* funcs_txt.jsx in Resources */ = {isa = PBXBuildFile; fileRef = 82BA46AA2154D59E002F21DF /* funcs_txt.jsx */; };
+		82BA46B42154D59E002F21DF /* funcs_unit.jsx in Resources */ = {isa = PBXBuildFile; fileRef = 82BA46AB2154D59E002F21DF /* funcs_unit.jsx */; };
+		82BA46B52154D59E002F21DF /* tiny_segmenter-0.2.js in Resources */ = {isa = PBXBuildFile; fileRef = 82BA46AC2154D59E002F21DF /* tiny_segmenter-0.2.js */; };
+		82BA46B62154D59E002F21DF /* placeTitle.jsx in Resources */ = {isa = PBXBuildFile; fileRef = 82BA46AD2154D59E002F21DF /* placeTitle.jsx */; };
+		82BA46B72154D59E002F21DF /* funcs_txtobj.jsx in Resources */ = {isa = PBXBuildFile; fileRef = 82BA46AE2154D59E002F21DF /* funcs_txtobj.jsx */; };
+		82BA46B92154D59E002F21DF /* placeAuthor.jsx in Resources */ = {isa = PBXBuildFile; fileRef = 82BA46B02154D59E002F21DF /* placeAuthor.jsx */; };
+		82BA46BC2154E7C1002F21DF /* deleteTemplate.jsx in Resources */ = {isa = PBXBuildFile; fileRef = 82BA46BA2154E7C1002F21DF /* deleteTemplate.jsx */; };
+		82BA46BD2154E7C1002F21DF /* checkOpened.jsx in Resources */ = {isa = PBXBuildFile; fileRef = 82BA46BB2154E7C1002F21DF /* checkOpened.jsx */; };
+		82E31F8621427421000C6AA1 /* MainTab.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E31F8521427421000C6AA1 /* MainTab.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		82476FF0213F9B890048F7FD /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				82476FEF213F9B880048F7FD /* Macro.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		82476FD8213F9AD20048F7FD /* SlipMaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlipMaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		82476FDB213F9AD20048F7FD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		82476FDC213F9AD20048F7FD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		82476FDE213F9AD20048F7FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		82476FE1213F9AD20048F7FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		82476FE3213F9AD20048F7FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82476FE4213F9AD20048F7FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		82476FE6213F9AD20048F7FD /* SlipMaker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SlipMaker.entitlements; sourceTree = "<group>"; };
+		82476FEC213F9AE10048F7FD /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		82476FED213F9B880048F7FD /* Macro.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Macro.framework; sourceTree = "<group>"; };
+		82476FF1213F9BEF0048F7FD /* ControllIllustrator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ControllIllustrator.h; sourceTree = "<group>"; };
+		82476FF2213F9BEF0048F7FD /* ControllIllustrator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ControllIllustrator.m; sourceTree = "<group>"; };
+		82476FF5213F9C640048F7FD /* Toolbars.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Toolbars.h; sourceTree = "<group>"; };
+		82476FF6213F9C640048F7FD /* Toolbars.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Toolbars.m; sourceTree = "<group>"; };
+		82476FF8213F9E770048F7FD /* Config.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Config.png; sourceTree = "<group>"; };
+		82476FFA213FAA6B0048F7FD /* SettingWizard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingWizard.h; sourceTree = "<group>"; };
+		82476FFB213FAA6B0048F7FD /* SettingWizard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingWizard.m; sourceTree = "<group>"; };
+		82477001213FC0520048F7FD /* Lower.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Lower.jpg; sourceTree = "<group>"; };
+		82477003213FC3BA0048F7FD /* Auth1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Auth1.jpg; sourceTree = "<group>"; };
+		82477004213FC3BB0048F7FD /* Auth2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Auth2.jpg; sourceTree = "<group>"; };
+		82477007213FC67B0048F7FD /* Setting.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Setting.h; sourceTree = "<group>"; };
+		82477008213FC67B0048F7FD /* Setting.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Setting.m; sourceTree = "<group>"; };
+		8247700A213FD18F0048F7FD /* Graph.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Graph.png; sourceTree = "<group>"; };
+		8299E9DC214A66C20037B67B /* Upper2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Upper2.jpg; sourceTree = "<group>"; };
+		8299E9DD214A66C20037B67B /* Upper1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Upper1.jpg; sourceTree = "<group>"; };
+		829F3F3B214B7E2500C5B18E /* AdobeGeometric.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdobeGeometric.h; sourceTree = "<group>"; };
+		829F3F3C214B7E2500C5B18E /* AdobeGeometric.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdobeGeometric.m; sourceTree = "<group>"; };
+		82AF06862155C06500D5003C /* TableData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableData.h; sourceTree = "<group>"; };
+		82AF06872155C06500D5003C /* TableData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableData.m; sourceTree = "<group>"; };
+		82AF06892155ED6700D5003C /* StatusView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StatusView.h; sourceTree = "<group>"; };
+		82AF068A2155ED6700D5003C /* StatusView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StatusView.m; sourceTree = "<group>"; };
+		82BA46A82154D59E002F21DF /* funcs_doc.jsx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = funcs_doc.jsx; sourceTree = "<group>"; };
+		82BA46A92154D59E002F21DF /* funcs_layout.jsx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = funcs_layout.jsx; sourceTree = "<group>"; };
+		82BA46AA2154D59E002F21DF /* funcs_txt.jsx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = funcs_txt.jsx; sourceTree = "<group>"; };
+		82BA46AB2154D59E002F21DF /* funcs_unit.jsx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = funcs_unit.jsx; sourceTree = "<group>"; };
+		82BA46AC2154D59E002F21DF /* tiny_segmenter-0.2.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "tiny_segmenter-0.2.js"; sourceTree = "<group>"; };
+		82BA46AD2154D59E002F21DF /* placeTitle.jsx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = placeTitle.jsx; sourceTree = "<group>"; };
+		82BA46AE2154D59E002F21DF /* funcs_txtobj.jsx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = funcs_txtobj.jsx; sourceTree = "<group>"; };
+		82BA46B02154D59E002F21DF /* placeAuthor.jsx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = placeAuthor.jsx; sourceTree = "<group>"; };
+		82BA46BA2154E7C1002F21DF /* deleteTemplate.jsx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = deleteTemplate.jsx; sourceTree = "<group>"; };
+		82BA46BB2154E7C1002F21DF /* checkOpened.jsx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = checkOpened.jsx; sourceTree = "<group>"; };
+		82E31F8421427421000C6AA1 /* MainTab.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainTab.h; sourceTree = "<group>"; };
+		82E31F8521427421000C6AA1 /* MainTab.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainTab.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82476FD5213F9AD20048F7FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82476FEE213F9B880048F7FD /* Macro.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82476FCF213F9AD20048F7FD = {
+			isa = PBXGroup;
+			children = (
+				82476FDA213F9AD20048F7FD /* SlipMaker */,
+				82476FD9213F9AD20048F7FD /* Products */,
+				82E31F9621427B66000C6AA1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		82476FD9213F9AD20048F7FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82476FD8213F9AD20048F7FD /* SlipMaker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82476FDA213F9AD20048F7FD /* SlipMaker */ = {
+			isa = PBXGroup;
+			children = (
+				82476FF4213F9C150048F7FD /* Others */,
+				82476FDB213F9AD20048F7FD /* AppDelegate.h */,
+				82476FDC213F9AD20048F7FD /* AppDelegate.m */,
+				82476FF1213F9BEF0048F7FD /* ControllIllustrator.h */,
+				82476FF2213F9BEF0048F7FD /* ControllIllustrator.m */,
+				82476FF5213F9C640048F7FD /* Toolbars.h */,
+				82476FF6213F9C640048F7FD /* Toolbars.m */,
+				82476FFA213FAA6B0048F7FD /* SettingWizard.h */,
+				82476FFB213FAA6B0048F7FD /* SettingWizard.m */,
+				82477007213FC67B0048F7FD /* Setting.h */,
+				82477008213FC67B0048F7FD /* Setting.m */,
+				82E31F8421427421000C6AA1 /* MainTab.h */,
+				82E31F8521427421000C6AA1 /* MainTab.m */,
+				829F3F3B214B7E2500C5B18E /* AdobeGeometric.h */,
+				829F3F3C214B7E2500C5B18E /* AdobeGeometric.m */,
+				82AF06862155C06500D5003C /* TableData.h */,
+				82AF06872155C06500D5003C /* TableData.m */,
+				82AF06892155ED6700D5003C /* StatusView.h */,
+				82AF068A2155ED6700D5003C /* StatusView.m */,
+			);
+			path = SlipMaker;
+			sourceTree = "<group>";
+		};
+		82476FF4213F9C150048F7FD /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				8299E9DD214A66C20037B67B /* Upper1.jpg */,
+				8299E9DC214A66C20037B67B /* Upper2.jpg */,
+				82477001213FC0520048F7FD /* Lower.jpg */,
+				82477003213FC3BA0048F7FD /* Auth1.jpg */,
+				82477004213FC3BB0048F7FD /* Auth2.jpg */,
+				8299E9362149E7B30037B67B /* Scripts */,
+				82476FF8213F9E770048F7FD /* Config.png */,
+				8247700A213FD18F0048F7FD /* Graph.png */,
+				82476FDE213F9AD20048F7FD /* Assets.xcassets */,
+				82476FE0213F9AD20048F7FD /* MainMenu.xib */,
+				82476FE3213F9AD20048F7FD /* Info.plist */,
+				82476FE4213F9AD20048F7FD /* main.m */,
+				82476FE6213F9AD20048F7FD /* SlipMaker.entitlements */,
+				82476FEC213F9AE10048F7FD /* PrefixHeader.pch */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		8299E9362149E7B30037B67B /* Scripts */ = {
+			isa = PBXGroup;
+			children = (
+				82BA46A82154D59E002F21DF /* funcs_doc.jsx */,
+				82BA46A92154D59E002F21DF /* funcs_layout.jsx */,
+				82BA46AA2154D59E002F21DF /* funcs_txt.jsx */,
+				82BA46AE2154D59E002F21DF /* funcs_txtobj.jsx */,
+				82BA46AB2154D59E002F21DF /* funcs_unit.jsx */,
+				82BA46B02154D59E002F21DF /* placeAuthor.jsx */,
+				82BA46AD2154D59E002F21DF /* placeTitle.jsx */,
+				82BA46BB2154E7C1002F21DF /* checkOpened.jsx */,
+				82BA46BA2154E7C1002F21DF /* deleteTemplate.jsx */,
+				82BA46AC2154D59E002F21DF /* tiny_segmenter-0.2.js */,
+			);
+			path = Scripts;
+			sourceTree = "<group>";
+		};
+		82E31F9621427B66000C6AA1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				82476FED213F9B880048F7FD /* Macro.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82476FD7213F9AD20048F7FD /* SlipMaker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82476FE9213F9AD20048F7FD /* Build configuration list for PBXNativeTarget "SlipMaker" */;
+			buildPhases = (
+				82476FD4213F9AD20048F7FD /* Sources */,
+				82476FD5213F9AD20048F7FD /* Frameworks */,
+				82476FD6213F9AD20048F7FD /* Resources */,
+				82476FF0213F9B890048F7FD /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SlipMaker;
+			productName = SlipMaker;
+			productReference = 82476FD8213F9AD20048F7FD /* SlipMaker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82476FD0213F9AD20048F7FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = uchiyama_Macmini;
+				TargetAttributes = {
+					82476FD7213F9AD20048F7FD = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 82476FD3213F9AD20048F7FD /* Build configuration list for PBXProject "SlipMaker" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 82476FCF213F9AD20048F7FD;
+			productRefGroup = 82476FD9213F9AD20048F7FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82476FD7213F9AD20048F7FD /* SlipMaker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82476FD6213F9AD20048F7FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82477002213FC0520048F7FD /* Lower.jpg in Resources */,
+				82BA46B22154D59E002F21DF /* funcs_layout.jsx in Resources */,
+				82BA46B32154D59E002F21DF /* funcs_txt.jsx in Resources */,
+				8299E9DF214A66C20037B67B /* Upper1.jpg in Resources */,
+				82476FF9213F9E770048F7FD /* Config.png in Resources */,
+				82BA46BC2154E7C1002F21DF /* deleteTemplate.jsx in Resources */,
+				82476FDF213F9AD20048F7FD /* Assets.xcassets in Resources */,
+				8299E9DE214A66C20037B67B /* Upper2.jpg in Resources */,
+				82476FE2213F9AD20048F7FD /* MainMenu.xib in Resources */,
+				82BA46B62154D59E002F21DF /* placeTitle.jsx in Resources */,
+				82BA46B52154D59E002F21DF /* tiny_segmenter-0.2.js in Resources */,
+				82BA46BD2154E7C1002F21DF /* checkOpened.jsx in Resources */,
+				82BA46B42154D59E002F21DF /* funcs_unit.jsx in Resources */,
+				82BA46B12154D59E002F21DF /* funcs_doc.jsx in Resources */,
+				82BA46B72154D59E002F21DF /* funcs_txtobj.jsx in Resources */,
+				82477005213FC3BB0048F7FD /* Auth1.jpg in Resources */,
+				8247700B213FD18F0048F7FD /* Graph.png in Resources */,
+				82BA46B92154D59E002F21DF /* placeAuthor.jsx in Resources */,
+				82477006213FC3BB0048F7FD /* Auth2.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82476FD4213F9AD20048F7FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82AF06882155C06500D5003C /* TableData.m in Sources */,
+				82476FE5213F9AD20048F7FD /* main.m in Sources */,
+				82AF068B2155ED6700D5003C /* StatusView.m in Sources */,
+				82E31F8621427421000C6AA1 /* MainTab.m in Sources */,
+				82476FDD213F9AD20048F7FD /* AppDelegate.m in Sources */,
+				82477009213FC67B0048F7FD /* Setting.m in Sources */,
+				82476FF3213F9BEF0048F7FD /* ControllIllustrator.m in Sources */,
+				829F3F3D214B7E2500C5B18E /* AdobeGeometric.m in Sources */,
+				82476FF7213F9C640048F7FD /* Toolbars.m in Sources */,
+				82476FFC213FAA6B0048F7FD /* SettingWizard.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		82476FE0213F9AD20048F7FD /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82476FE1213F9AD20048F7FD /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		82476FE7213F9AD20048F7FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.12;
+			};
+			name = Debug;
+		};
+		82476FE8213F9AD20048F7FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx10.12;
+			};
+			name = Release;
+		};
+		82476FEA213F9AD20048F7FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 247S3F628J;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"/Users/uchiyama_macmini/Documents/ProjectDB/Macro/build/Debug/**",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/SlipMaker/Others/PrefixHeader.pch";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = SlipMaker/Others/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = me.kazuya.dev.SlipMaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		82476FEB213F9AD20048F7FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 247S3F628J;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"/Users/uchiyama_macmini/Documents/ProjectDB/Macro/build/Debug/**",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/SlipMaker/Others/PrefixHeader.pch";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = SlipMaker/Others/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = me.kazuya.dev.SlipMaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82476FD3213F9AD20048F7FD /* Build configuration list for PBXProject "SlipMaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82476FE7213F9AD20048F7FD /* Debug */,
+				82476FE8213F9AD20048F7FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82476FE9213F9AD20048F7FD /* Build configuration list for PBXNativeTarget "SlipMaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82476FEA213F9AD20048F7FD /* Debug */,
+				82476FEB213F9AD20048F7FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82476FD0213F9AD20048F7FD /* Project object */;
+}
